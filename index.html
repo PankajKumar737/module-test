@@ -1,0 +1,96 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>F2 Module test Jan</title>
+    <style>
+        .hide {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="images">
+
+        <div class="first-img">
+            <img src="./dog.jpg" alt="" height="200px" width="350px" id="dogId">
+        </div>
+
+        <div class="sec-img">
+            <img src="./cat.jpg" alt="" height="200px" width="350px" id="catId">
+        </div>
+
+        <div class="third-img">
+            <img src="./laptop.jpg" alt="" height="200px" width="350px" id="laptopId">
+        </div>
+
+        <div class="fourth-img">
+            <img src="./apple.jpg" alt="" height="200px" width="350px" id="appleId">
+        </div>
+
+    </div>
+
+    <div class="container">
+
+        <div class="formAndDisplay">
+
+           <br>
+            <div class="registration-form hide" max-width="25%" alignitems : center>  <br>
+                <form>
+                    <label for="name">Name : </label> <br>
+                    <input type="text" id="name" placeholder="Enter name"> <br><br>
+
+                    <label for="emaail">Email :</label> <br>
+                    <input type="email" id="email" placeholder="Enter email"> <br><br>
+
+                    <label for="username">UserName :</label> <br>
+                    <input type="text" id="userName" placeholder="Enter username"> <br><br>
+
+                </form>
+
+            </div>
+
+            <div class="display-data" max-width="25%">
+
+                <br>
+                <p class="disp-name"></p> <br>
+                <p class="disp-username"></p>
+
+            </div>
+
+        </div>
+
+        <div class="diceAndCoupon">
+            
+            <div class="dice-class hide">
+                <br>
+                <img src="./dice.png" alt="Dice" id="dice" height="100px" width="100px">
+                <p class="score-para"></p>
+                <p class="error-para"></p>
+                <p class="badluck-para hide">Bad Luck</p>
+
+            </div>
+
+            <div class="coupon-class hide">
+                <p class="coupon-Para"></p>
+                <img src="./congo-image.jpg" alt="Congragulations" id="congo-image" height="150px" width="200px">
+                
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="./script.js"></script>
+
+
+</body>
+
+
+</html>

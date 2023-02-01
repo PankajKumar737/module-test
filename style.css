@@ -1,0 +1,31 @@
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+.images{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+.formAndDisplay {
+    display: flex;
+    justify-content: space-around;
+    gap: 10%;
+}
+
+.diceAndCoupon{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container{
+    display: flex;
+    gap: 20%;
+}
+
+.dice{
+    align-items: center;
+}
